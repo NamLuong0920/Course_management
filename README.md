@@ -27,5 +27,5 @@
 	- admin: ndbao@gmail.com
 <br>
 
-**3. Lưu ý** 
+**3. Lưu ý** <br>
 Các chức năng import file Excel: có những file Excel mẫu trong thư mục `src/data/ImportExcel`. Tuy nhiên dữ liệu trong các file này chỉ là dữ liệu mẫu, khi sử dụng cần thay đổi dữ liệu cho phù hợp với nhu cầu.
