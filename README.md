@@ -1,31 +1,31 @@
 
 # Course Management Project
 
-## Tổng quan
-- Chương trình chạy trên nền tảng web (sử dụng tốt nhất trên trình duyệt Google Chrome).
-- Chương trình kết nối với database PostgreSQL.
+## Overview
+- The project runs on web (best used on Google Chrome browser).
+- The project connects to the PostgreSQL database.
 <br>
 
-## Hướng dẫn chạy chương trình
+## How to Run
 <br>
 
-**1. Tạo database**
-- Mở PostgreSQL và tạo 1 database trống.
-- Chạy file `DB_Schema.sql` trong thư mục `src/data/PostgreSQLDatabase`.
-- Chạy file `DB_Data.sql` trong thư mục `src/data/PostgreSQLDatabase`.
-- Thay đổi các giá trị của file `.env` trong thư mục `src` để phù hợp với database của thiết bị.
+**1. Create Database**
+- Create a new database in PostgreSQL.
+- Run `DB_Schema.sql` in the `src/data/PostgreSQLDatabase` folder to create schema for your database.
+- Run `DB_Data.sql` in the `src/data/PostgreSQLDatabase` folder to create data for your database.
+- Change the values ​​of the `.env` file in the `src` folder to match your database.
 <br>
 
-**2. Chạy chương trình** 
-- Mở thư mục `src` trong Visual Studio Code.
-- Chạy lệnh `npm i` trên Terminal để cài đặt các package.
-- Chạy lệnh `npm start` trên Terminal.
-- Truy cập vào địa chỉ http://localhost:3000 trên trình duyệt web.
-- Đăng nhập bằng bất kì tài khoản nào trong file `DB_Data.sql` trong thư mục `src/data/PostgreSQLDatabase`. Mật khẩu được cấp sẵn ban đầu đều là `123`, sau khi đăng nhập người dùng có thể thực hiện chức năng đổi mật khẩu. 3 tài khoản mẫu:
+**2. Run the Program** 
+- Open the `src` folder in Visual Studio Code.
+- Run `npm i` on Terminal to install the packages.
+- Run `npm start` on Terminal to run the program.
+- Access the address http://localhost:3000 on the web browser.
+- Log in to the program with any account in `DB_Data.sql` in the `src/data/PostgreSQLDatabase` folder. The initial password is `123`. After logging in, user can change the password. 3 sample accounts:
 	- student: lpttruc@gmail.com
 	- teacher: dclam@gmail.com
 	- admin: ndbao@gmail.com
 <br>
 
-**3. Lưu ý** <br>
-Các chức năng import file Excel: có những file Excel mẫu trong thư mục `src/data/ImportExcel`. Tuy nhiên dữ liệu trong các file này chỉ là dữ liệu mẫu, khi sử dụng cần thay đổi dữ liệu cho phù hợp với nhu cầu.
+**3. Note** <br>
+Excel file import functions: There are sample Excel files in the `src/data/ImportExcel` folder. However, the data in these files is only sample data. When using it, you have to change the data to suit your needs.
